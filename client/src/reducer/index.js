@@ -82,7 +82,8 @@ function rootReducer(state = initialState, action) {
 
         case 'FILTER_CREATED':
             const fija = state.intocado;
-            const createdFilter = action.payload === 'created' ? fija.filter(vg => vg.createdInDb) : fija.filter(vg => !vg.createdInDb)
+            const createdFilter = action.payload === 'created' ? 
+            fija.filter(vg => vg.createdInDb) : fija.filter(vg => !vg.createdInDb)
             return {
                 ...state,
                 videogames: action.payload === 'All' ? state.allVideogames : createdFilter
