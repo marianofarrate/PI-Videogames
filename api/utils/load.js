@@ -24,7 +24,7 @@ const getInfoApi = async () => {
     });
     return apiInfo;
     } catch (error) {
-        next(error);
+        console.log(error);
     }
     
 };
