@@ -3,6 +3,7 @@
 </p>
 
 # Individual Project - Henry Videogames
+Proyecto Individual - Videogames
 
 <p align="right">
   <img height="200" src="./videogame.png" />
